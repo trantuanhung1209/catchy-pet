@@ -1,0 +1,74 @@
+.header {
+
+    .about {
+        position: relative;
+    }
+    .about::before {
+        content: "";
+        width: 20px;
+        height: 20px;
+        background-image: url('../../assets/images/svg/icon-menu.png');
+        position: absolute;
+        left: -32px;
+        top: 28px;
+        background-position: top center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .products {
+        position: relative;
+    }
+    .products::before {
+        content: "";
+        width: 20px;
+        height: 20px;
+        background-image: url('../../assets/images/svg/icon-menu.png');
+        position: absolute;
+        left: -32px;
+        top: 28px;
+        background-position: top center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .contact {
+        position: relative;
+    }
+    .contact::before {
+        content: "";
+        width: 20px;
+        height: 20px;
+        background-image: url('../../assets/images/svg/icon-menu.png');
+        position: absolute;
+        left: -32px;
+        top: 28px;
+        background-position: top center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .book {
+        position: relative;
+    }
+    .book::before {
+        content: "";
+        width: 20px;
+        height: 20px;
+        background-image: url('../../assets/images/svg/icon-menu.png');
+        position: absolute;
+        left: -32px;
+        top: 28px;
+        background-position: top center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    ul {
+        li {
+            .active {
+                color: #b57310;
+            }
+        }
+    }
+}

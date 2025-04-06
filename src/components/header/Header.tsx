@@ -1,24 +1,8 @@
 import { NavLink } from "react-router-dom";
 import { FaSearch, FaUser, FaShoppingCart } from "react-icons/fa";
 import "./Header.css";
-import { useEffect, useState } from "react";
 
 export const Header = () => {
-
-    const [menu, setMenu] = useState<{ title: string; link: string }[]>([]);
-    useEffect(() => {
-        const fetchMenu = async () => {
-            try {
-                const response = await fetch("/data/menu.json");
-                const data = await response.json();
-                setMenu(data);
-            } catch (error) {
-                console.error("Error fetching menu:", error);
-            }
-        };
-        fetchMenu();
-    }, []);
-
 
   return (
     <>

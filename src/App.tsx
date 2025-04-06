@@ -27,7 +27,7 @@ function App() {
   return (
     <>
       <Header />
-      <main className="inner-main min-h-[calc(100vh-150px)]">
+      <main className="inner-main min-h-[calc(100vh-150px)] mt-[-162px]">
         <Suspense fallback={<Loading />}>
           {isChangingRoute ? (
             <Loading />

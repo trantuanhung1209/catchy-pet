@@ -1,11 +1,28 @@
 import { NavLink } from "react-router-dom";
 import { FaSearch, FaUser, FaShoppingCart } from "react-icons/fa";
 import "./Header.css";
+import { useEffect, useState } from "react";
 
 export const Header = () => {
+
+    const [menu, setMenu] = useState<{ title: string; link: string }[]>([]);
+    useEffect(() => {
+        const fetchMenu = async () => {
+            try {
+                const response = await fetch("/data/menu.json");
+                const data = await response.json();
+                setMenu(data);
+            } catch (error) {
+                console.error("Error fetching menu:", error);
+            }
+        };
+        fetchMenu();
+    }, []);
+
+
   return (
     <>
-      <header className=" header bg-[#ccc] text-white text-center sticky top-0 left-0 z-[9999] ">
+      <header className=" header text-white text-center sticky top-0 left-0 z-[9999] ">
         <div className="container max-w-[1340px] mx-auto  rounded-[50px] p-[5px]">
             <div className="inner-actions h-[75px] flex justify-end items-center relative z-[9] ">
                 <div className="inner-search hover:text-[#6e5100] cursor-pointer p-[20px]">
@@ -23,6 +40,11 @@ export const Header = () => {
                     <nav className="w-[100%]">
                         <ul className="flex justify-around items-center px-[20px]">
                             <div className="flex justify-between items-center gap-[50px] h-full">
+                                {/* {menu.splice(0,3).map((item, index) => 
+                                    <li key={index}>
+                                        <NavLink to={item.link} className="block py-[20px] hover:text-[#b57310] text-[20px]">{item.title}</NavLink>
+                                    </li>
+                                )} */}
                                 <li>
                                     <NavLink to="/" className="block py-[20px] hover:text-[#b57310] text-[20px]">Trang chủ</NavLink>
                                 </li>

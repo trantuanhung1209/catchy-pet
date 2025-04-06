@@ -1,5 +1,5 @@
 import './Footer.css';
-import logoFooter from '../../assets/images/svg/logo-footer.webp';
+import logoFooter from '/images/svg/logo-footer.webp';
 import { FaFacebookF, FaInstagram, FaTwitter, FaTiktok, FaYoutube } from "react-icons/fa";
 import { NavLink } from 'react-router-dom';
 

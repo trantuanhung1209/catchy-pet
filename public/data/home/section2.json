@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Dành cho Chó",
+        "description": "Chó cưng, đồ chơi cho chó và các sản phẩm chuyên dành cho chó cưng",
+        "image": "/images/section_1_welcome/welcome_section_1_1.webp"
+    },
+    {
+        "title": "Dành cho Mèo",
+        "description": "Mèo cưng, đồ chơi cho mèo và các sản phẩm chuyên dành cho mèo cưng",
+        "image": "/images/section_1_welcome/welcome_section_1_2.webp"
+    },
+    {
+        "title": "Dành cho Hamster",
+        "description": "Hamster cưng, đồ chơi cho Hamster và các sản phẩm chuyên dành cho Hamster",
+        "image": "/images/section_1_welcome/welcome_section_1_3.webp"
+    },
+    {
+        "title": "Dành cho Chim",
+        "description": "Chim cưng, đồ chơi cho chim và các sản phẩm chuyên dành cho chim cưng",
+        "image": "/images/section_1_welcome/welcome_section_1_4.webp"
+    }
+]

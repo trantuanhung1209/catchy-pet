@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Trang chủ",
+        "link": "/"
+    },
+    {
+        "title": "Giới thiệu",
+        "link": "/about"
+    },
+    {
+        "title": "Sản phẩm",
+        "link": "/products"
+    },
+    {
+        "title": "Tin tức",
+        "link": "/new"
+    },
+    {
+        "title": "Liên hệ",
+        "link": "/contact"
+    },
+    {
+        "title": "Đặt lịch",
+        "link": "/book"
+    }
+]

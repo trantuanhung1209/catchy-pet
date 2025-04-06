@@ -8,7 +8,6 @@ import "./Home.css";
 import { NavLink } from "react-router-dom";
 import { Section2Item } from "./components/section-2/Section2Item";
 import { Section3Item } from "./components/section-3/Section3Item";
-import { Title } from "./components/title/Title";
 import { Section5 } from "./components/section-5/Section5";
 
 const HomePage = () => {

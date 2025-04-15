@@ -3,6 +3,8 @@ import { Section3Item } from "../section-3/Section3Item";
 import { Title } from "../title/Title";
 import { NavLink } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
+import { useInView } from "react-intersection-observer";
+import { motion } from "framer-motion";
 
 export const Section5 = () => {
   const categories = [
@@ -11,7 +13,10 @@ export const Section5 = () => {
     { label: "Thức ăn cho hamster", tag: "hamster" },
     { label: "Thức ăn cho chim", tag: "bird" },
   ];
-
+  const { ref, inView } = useInView({
+    triggerOnce: true,
+    threshold: 0.2,
+  });
   const [selectedTag, setSelectedTag] = useState<string>("cat");
   const [visible, setVisible] = useState(true);
   const [allProducts, setAllProducts] = useState<typeof dataProduct>([]);
@@ -63,7 +68,13 @@ export const Section5 = () => {
 
   return (
     <>
-      <section className="section-5 py-[80px]">
+      <motion.section
+        ref={ref}
+        initial={{ opacity: 0, y: 50 }}
+        animate={inView ? { opacity: 1, y: 0 } : {}}
+        transition={{ duration: 0.6 }}
+        className="section-5 py-[80px]"
+      >
         <div className="container max-w-[1340px] mx-auto">
           <Title title="Sản phẩm shop đang bán" />
 
@@ -96,10 +107,15 @@ export const Section5 = () => {
             ))}
           </div>
           <div className="inner-readmore flex items-center justify-center">
-            <NavLink to="/products" className="block flex items-center gap-[5px] hover:text-[#f4b915]">Xem thêm sản phẩm <FaArrowRight /></NavLink>
+            <NavLink
+              to="/products"
+              className="block flex items-center gap-[5px] hover:text-[#f4b915]"
+            >
+              Xem thêm sản phẩm <FaArrowRight />
+            </NavLink>
           </div>
         </div>
-      </section>
+      </motion.section>
     </>
   );
 };

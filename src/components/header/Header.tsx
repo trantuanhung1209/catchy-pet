@@ -44,7 +44,7 @@ export const Header = () => {
                             </div>
                             <div className="flex justify-between items-center gap-[50px] h-full">
                                 <li>
-                                    <NavLink to="/new" className="block py-[20px] hover:text-[#b57310] text-[20px]">Tin tức</NavLink>
+                                    <NavLink to="/news" className="block py-[20px] hover:text-[#b57310] text-[20px]">Tin tức</NavLink>
                                 </li>
                                 <li>
                                     <NavLink to="/contact" className="contact block py-[20px] hover:text-[#b57310] text-[20px]">Liên hệ</NavLink>

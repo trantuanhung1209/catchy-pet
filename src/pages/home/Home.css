@@ -1,11 +1,159 @@
+button:active {
+    transform: scale(0.9);
+}
+
+.section-2 {
+    background-color: #fcf8ee;
+}
+
 .section-3 {
+    background-color: #fcf8ee;
+
     .inner-titem:hover {
         box-shadow: 0px 0px 20px 0px rgba(189, 126, 0, 0.12);
     }
 }
 
 .section-5 {
+    background-image: url('/images/banner/bg-tab_section-4.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
     .custom-box-shadow {
         box-shadow: 0px 0px 18px 0px rgba(206, 137, 0, 0.12);
+    }
+}
+
+.section-6 {
+    background-color: #f9f2e0;
+
+    .inner-wrap {
+
+        .inner-item {
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+
+            .content-service::before {
+                content: '';
+                position: absolute;
+                top: 3px;
+                left: 5px;
+                width: 19px;
+                height: 20px;
+                background-color: rgba(255, 255, 255, 0.8);
+                border-radius: 10px;
+                background: url('/images/svg/bg_list_sv.webp') no-repeat center center;
+                position: absolute;
+            }
+
+            .content-service-2::before {
+                content: '';
+                position: absolute;
+                top: 3px;
+                left: 5px;
+                width: 19px;
+                height: 20px;
+                background-color: rgba(255, 255, 255, 0.8);
+                border-radius: 10px;
+                background: url('/images/svg/bg_list_sv_2.webp') no-repeat center center;
+                position: absolute;
+            }
+        }
+
+        .item-1 {
+            background-image: url('/images/banner/bg_itemsv_1.webp');
+        }
+
+        .item-2 {
+            background-image: url('/images/banner/banner_service.webp');
+        }
+
+        .item-3 {
+            background-image: url('/images/banner/bg_itemsv_2.webp');
+        }
+    }
+}
+
+.section-7 {
+    background-image: url('/images/banner/bg-accessories.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .inner-title {
+        h2 {
+            color: white;
+        }
+    }
+}
+
+.section-8 {
+    .inner-title:hover {
+        h2 {
+            color: #f9a529;
+        }
+    }
+
+    .inner-content {
+        box-shadow: 0px 0px 26px 0px rgba(109, 73, 0, 0.08);
+    }
+}
+
+.section-9 {
+    .inf-scroll-horizon {
+        overflow: hidden;
+        position: relative;
+    }
+
+    .logos {
+        display: flex;
+        animation: scroll 20s linear infinite;
+    }
+
+    .inf-scroll-horizon:hover .logos {
+        animation-play-state: paused;
+    }
+
+    .inf-scroll-horizon::before,
+    .inf-scroll-horizon::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        width: 6rem;
+        height: 100%;
+        z-index: 2;
+    }
+
+    .inf-scroll-horizon::before {
+        left: 0;
+        background: linear-gradient(to right, #fcf8ee, transparent);
+    }
+
+    .inf-scroll-horizon::after {
+        right: 0;
+        background: linear-gradient(to left, #fcf8ee, transparent);
+    }
+
+    .logos img {
+        width: 150px;
+        height: 100px;
+        margin: 0 40px;
+        flex-shrink: 0;
+    }
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        transform: translateX(-50%);
+    }
+
+    100% {
+        transform: translateX(0px);
     }
 }

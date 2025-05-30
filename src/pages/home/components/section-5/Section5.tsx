@@ -6,6 +6,20 @@ import { FaArrowRight } from "react-icons/fa";
 import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 
+interface Product {
+  id: String;
+  title: String;
+  brand: String;
+  oldPrice: String;
+  newPrice: String;
+  description: String;
+  category: Array<String>;
+  image: String;
+  image2?: String;
+  image1?: String;
+  image3?: String;
+}
+
 export const Section5 = () => {
   const categories = [
     { label: "Thức ăn cho mèo", tag: "cat" },
@@ -20,21 +34,7 @@ export const Section5 = () => {
   const [selectedTag, setSelectedTag] = useState<string>("cat");
   const [visible, setVisible] = useState(true);
   const [allProducts, setAllProducts] = useState<typeof dataProduct>([]);
-  const [dataProduct, setsetDataProduct] = useState<
-    {
-      id: String;
-      title: String;
-      brand: String;
-      oldPrice: String;
-      newPrice: String;
-      description: String;
-      category: Array<String>;
-      image: String;
-      image2?: String;
-      image1?: String;
-      image3?: String;
-    }[]
-  >([]);
+  const [dataProduct, setsetDataProduct] = useState<Product[]>([]);
 
   const filterProducts = (tag: string, data: any) => {
     return data.filter((item: any) => item.category.includes(tag));
@@ -54,6 +54,7 @@ export const Section5 = () => {
     };
     fetchData();
   }, []);
+
 
   const handleSelectTag = (tag: string) => {
     setVisible(false); // Ẩn trước
@@ -102,14 +103,18 @@ export const Section5 = () => {
               visible ? "opacity-100 scale-100" : "opacity-0 scale-95"
             }`}
           >
-            {dataProduct.map((item, index) => (
+            {dataProduct.length >= 8 ? (
+              dataProduct.slice(0,8).map((item, index) => (
+                <Section3Item key={index} item={item} />
+              ))
+            ) : (dataProduct.map((item, index) => (
               <Section3Item key={index} item={item} />
-            ))}
+            )))}
           </div>
           <div className="inner-readmore flex items-center justify-center">
             <NavLink
               to="/products"
-              className="block flex items-center gap-[5px] hover:text-[#f4b915]"
+              className="block flex items-center text-[20px] gap-[5px] hover:text-[#f4b915]"
             >
               Xem thêm sản phẩm <FaArrowRight />
             </NavLink>

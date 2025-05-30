@@ -38,7 +38,7 @@ function App() {
               <Route path="/products" element={<ProductsPage />} />
               <Route path="/contact" element={<ContactPage />} />
               <Route path="/book" element={<BookPage />} />
-              <Route path="/new" element={<NewPage />} />
+              <Route path="/news" element={<NewPage />} />
             </Routes>
           )}
         </Suspense>

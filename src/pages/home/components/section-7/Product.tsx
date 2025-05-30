@@ -1,4 +1,4 @@
-export const Product = (props: any) => {
+export const Product = () => {
   return (
     <>
       <div className="product-item flex gap-[20px] p-[30px] bg-[#ffffff] rounded-[10px]">

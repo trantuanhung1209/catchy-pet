@@ -1,7 +1,7 @@
 import { FaClock } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 
-export const CardNew = (props: any) => {
+export const CardNew = () => {
   return (
     <>
       <div className="inner-item relative ">

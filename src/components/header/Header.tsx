@@ -9,10 +9,6 @@ import "./Header.css";
 import { useState } from "react";
 
 export const Header = () => {
-  const [menu, setMenu] = useState(false);
-  const handleMenuToggle = () => {
-    setMenu(!menu);
-  };
   return (
     <>
       <header className=" header text-white text-center sticky top-0 left-0 z-[9999] ">

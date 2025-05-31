@@ -12,6 +12,7 @@ interface Product {
   brand: String;
   oldPrice: String;
   newPrice: String;
+  discount?: Number;
   description: String;
   category: Array<String>;
   image: String;

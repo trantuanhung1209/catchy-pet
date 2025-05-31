@@ -3,6 +3,7 @@
     .about {
         position: relative;
     }
+
     .about::before {
         content: "";
         width: 20px;
@@ -19,6 +20,7 @@
     .products {
         position: relative;
     }
+
     .products::before {
         content: "";
         width: 20px;
@@ -35,6 +37,7 @@
     .contact {
         position: relative;
     }
+
     .contact::before {
         content: "";
         width: 20px;
@@ -51,6 +54,7 @@
     .book {
         position: relative;
     }
+
     .book::before {
         content: "";
         width: 20px;
@@ -71,4 +75,39 @@
             }
         }
     }
+}
+
+@keyframes flipDown {
+    0% {
+        transform: rotateX(-90deg);
+        opacity: 0;
+    }
+
+    100% {
+        transform: rotateX(0deg);
+        opacity: 1;
+    }
+}
+
+@keyframes flipUp {
+    0% {
+        transform: rotateX(0deg);
+        opacity: 1;
+    }
+
+    100% {
+        transform: rotateX(-90deg);
+        opacity: 0;
+    }
+}
+
+.dropdown-content {
+    transform-origin: top;
+    animation: flipUp 0.4s ease-out forwards;
+    display: none;
+}
+
+.group:hover .dropdown-content {
+    display: block;
+    animation: flipDown 0.4s ease-out forwards;
 }

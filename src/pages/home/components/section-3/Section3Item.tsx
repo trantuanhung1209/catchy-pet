@@ -4,8 +4,9 @@ export const Section3Item = (props: any) => {
     <>
       <div className="inner-titem group relative p-5 bg-white rounded-2xl cursor-pointer overflow-hidden">
         {/* Ảnh + Nội dung */}
-        <div className="inner-image">
+        <div className="inner-image relative">
           <img src={item.image} alt={item.title} />
+          <span className="discount absolute top-0 right-0 text-white text-sm bg-red-400 rounded-[8px] p-[5px]">-{item.discount}%</span>
         </div>
         <div className="inner-title text-center pt-5">{item.title}</div>
         <div className="inner-price flex items-center gap-2 justify-center">

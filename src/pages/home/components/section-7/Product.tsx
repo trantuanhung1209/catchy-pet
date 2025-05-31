@@ -1,24 +1,26 @@
-export const Product = () => {
+export const Product = (props: any) => {
+  const { item } = props;
   return (
     <>
       <div className="product-item flex gap-[20px] p-[30px] bg-[#ffffff] rounded-[10px]">
-        <div className="inner-image w-[100px] h-[100px]">
+        <div className="inner-image relative w-[100px] h-[100px]">
           <img
-            className="w-full h-full object-cover"
-            src="/images/products/balo-van-chuyen-2.webp"
-            alt=""
+            className="w-full h-full object-cover "
+            src={item.image}
+            alt={item.title}
           />
+          <span className="discount absolute top-0 right-0 text-white text-sm bg-red-400 rounded-[8px] p-[4px]">-{item.discount}%</span>
         </div>
         <div className="inner-content">
           <h3 className="text-[16px] font-semibold mb-[10px] ml-[5px]">
-            Balo vận chuyển thú cưng
+            {item.title}
           </h3>
           <p className="inner-price mb-[10px] ml-[10px]">
             <span className="text-[18px] font-bold text-[#f4b915]">
-              350.000đ
+              {item.newPrice.toLocaleString()}đ
             </span>
             <span>
-              <del className="text-[16px] text-[#999] ml-[10px]">400.000đ</del>
+              <del className="text-[16px] text-[#999] ml-[10px]">{item.oldPrice.toLocaleString()}đ</del>
             </span>
           </p>
           <div className="inner-actions flex items-center gap-[10px]">

@@ -5,6 +5,7 @@
         "brand": "Pedigree ",
         "oldPrice": 150000,
         "newPrice": 50000,
+        "discount": 66,
         "description": "Sữa bột nguyên kem, Sữa bột gầy, Nondairy creamer, Maltodextrin,Sucrose,Whey protein concentrate,Hương dùng trong thực phẩm,Chất xơ Inulin, Lysine, Nano - Precipitated Calcium Carbonate,Vitamin C, Vitamin K1, Vitamin B6, Vitamin B1, VitaminB2, Vitamin D3, Vitamin A, Vitamin B12, Vitamin Axit Pantothenic, Biotine, Axit Folic...",
         "category": ["cat", "hamster"],
         "image": "/images/products/sua-bot-cho-meo-dr-kyan-precaten-anh.webp",
@@ -18,6 +19,7 @@
         "brand": "Whiskat",
         "oldPrice": 250000,
         "newPrice": 200000,
+        "discount": 20,
         "description": "Thức ăn cho mèo lớn Whiskas được lựa chọn từ những thành phần thịt, cá tươi ngon nhất trong chế biến, giàu protein, các vitamin và khoáng chất thiết yếu và không có chất bảo quản, mang đến tác dụng cân bằng dinh dưỡng hàng ngày cho thú cưng của bạn. Thức ăn cho mèo Whiskas được phát triển bởi các chất dinh dưỡng tối ưu và được các chuyên gia vật nuôi trên khắp thế giới công nhận là sản phẩm dinh dưỡng tốt nhất và khuyên dùng.",
         "category": ["cat", "hamster"],
         "image": "/images/products/hat-thuc-an-cho-meo-whiskat.webp",
@@ -29,6 +31,7 @@
         "brand": "Smartheart",
         "oldPrice": 60000,
         "newPrice": 30000,
+        "discount": 50,
         "description": "Để thú cưng như chú cún yêu của bạn cứng cáp và khoẻ mạnh bạn cần phải đảm bảo cho nó ăn, uống đầy đủ chất dinh dưỡng. Nhất là với thú cưng dưới 1 năm tuổi, bạn cần đặc biệt chú ý tới thành phần dinh dưỡng hằng ngày và lựa chọn những loại thức ăn an toàn, đạt chuẩn để chúng phát triển tốt nhất. Hôm nay Petcity.vn, mang đến cho bạn sản phẩm thức ăn cho chó Smartheart đến từ công ty Perfect Companion Việt Nam.",
         "category": ["cat", "dog"],
         "image": "/images/products/thuc-an-dang-hat-smartheart.webp"
@@ -39,6 +42,7 @@
         "brand": "Nutrience",
         "oldPrice": 260000,
         "newPrice": 150000,
+        "discount": 42,
         "description": "Dòng hạt thức ăn top 5*, không độn ngũ cốc với thành phần cực kỳ đa dạng, phong phú đem lại cho bé mèo mùi vị hạt đặc trưng cực kỳ gây kích thích vị giác (mùi thật của thịt cá đặc trưng chứ k hề pha trộn hương liệu đâu nhé )Các bé mèo sử dụng hạt này sẽ được cung cấp nhiều năng lượng, tăng cân đều, phát triển tốt và có thân hình “vạm vỡ” săn chắc chứ không hề mập mỡ sen nhé!Hạt cực kỳ lành tính, không hề gây kích ứng đường ruột, rất yên tâm khi cho boss cưng sử dụng.",
         "category": "cat",
         "image": "/images/products/thuc-an-hat-cho-meo-nutrience.webp"
@@ -49,6 +53,7 @@
         "brand": "Minino",
         "oldPrice": 180000,
         "newPrice": 90000,
+        "discount": 50,
         "description": "+ Với hàm lượng dinh dưỡng vừa đủ giúp mèo cưng phát triển hoàn thiện + Sản phẩm từ thịt cá ngừ.+ Lượng vitamin thiết yếu. + Lúa mì, rau củ sấy khô,… Giúp kích thích ăn và hấp thụ dinh dưỡng tốt Hình dáng thức ăn có hình tròn trụ giống hạt Canin Fit 32 phù hợp với các giống Mèo Làm giảm lông vón cục trong hệ tiêu hóa Tăng cường dưỡng chất bảo vệ cơ thể Giảm hiện tượng bị giảm thị lực và thính lực của Mèo",
         "category": "cat",
         "image": "/images/products/thuc-an-hat-kho-cho-meo-minino.webp"
@@ -59,8 +64,9 @@
         "brand": "Pedigree",
         "oldPrice": 90000,
         "newPrice": 60000,
+        "discount": 33,
         "description": "Ferplast, có trụ sở tại Castelgomberto (tỉnh Vicenza - Ý), được thành lập vào năm 1966 bởi Carlo Vaccari. Trong 50 năm, Ferplast đã tham gia nghiên cứu và tạo ra các sản phẩm sáng tạo, an toàn với chất lượng cao nhằm đảm bảo cho sự chăm sóc thoải mái của vật nuôi. Công ty dành nhiều khoản đầu tư đáng kể cho nghiên cứu những công nghệ tiên tiến cho việc sản xuất. Là một doanh nghiệp thương mại điển hình của vùng Đông Bắc nước Ý, ngày nay Ferplast sản xuất hơn 2000 loại sản phẩm, có khoảng 1.000 nhân viên, phân phối không dưới 80 quốc gia trên thế giới và có chi nhánh tại Ý, Pháp, Đức, Anh, Scandinavia, Ba Lan, Ukraina, Slovakia, Nga, Benelux và Brazil, có 3 nhà máy sản xuất ở Ý, Ukraina và Cộng hòa Slovak.",
-        "category": ["cat", "dog"],
+        "category": ["cat", "dog", "accessories"],
         "image": "/images/products/xuong-gam-tu-nhien-vi-ga.webp"
     },
     {
@@ -69,6 +75,7 @@
         "brand": "Royal Canin",
         "oldPrice": 500000,
         "newPrice": 450000,
+        "discount": 10,
         "description": "Thức ăn hạt Royal Canin là một trong những thương hiệu thức ăn cho mèo nổi tiếng nhất trên thế giới. Với nhiều năm kinh nghiệm trong ngành sản xuất thức ăn cho thú cưng, Royal Canin đã phát triển nhiều dòng sản phẩm khác nhau để đáp ứng nhu cầu dinh dưỡng của từng giống mèo. Bột đậu, bột ngô, bột nêm, dầu thực vật, men bia khô, muối, natri silico Alginate, dầu cá, canxi sunfat, fructooligosaccharides, kali clorua, monosodium phosphate, sản phẩm trứng, DL-methionine, clorua choline, L-cystine, taurine, vitamin [DL-alpha tocopherol acetate (nguồn vitamin E), L-ascorbyl- 2-polyphosphate (nguồn vitamin C), bổ sung niacin, biotin, riboflavin bổ sung, D-calcium pantothenate, pyridoxine hydrochloride (vitamin B6), vitamin A acetate, thiamine mononitrat (vitamin B1), folic acid, bổ sung vitamin B12, vitamin D3 Bổ sung] natri tripolyphosphate, chè, khoáng chất vi lượng (oxit kẽm, kẽm proteinate, sắt sulfat, protein mangan, proteinate đồng, đồng sunfat, oxit mangan, canxi iodat, selenit natri), L-carnitine, chiết xuất từ ​​hương thảo, bảo quản với hỗn hợp Copherols và axit xitric.",
         "category": ["cat", "hamster"],
         "image": "/images/products/thuc-an-cho-meo-canin.webp"
@@ -79,8 +86,9 @@
         "brand": "Tropiclean",
         "oldPrice": 210000,
         "newPrice": 150000,
+        "discount": 28,
         "description": "Thông tin sản phẩm đang được cập nhật",
-        "category": ["cat", "dog"],
+        "category": ["cat", "dog", "accessories"],
         "image": "/images/products/binh-tru-thuc-an.webp"
     },
     {
@@ -89,8 +97,9 @@
         "brand": "Tropiclean",
         "oldPrice": 110000,
         "newPrice": 65000,
+        "discount": 41,
         "description": "Bình nước tự động treo chuồng Catchy 500ml là dụng cụ chăm sóc thú cưng an toàn, tiện lợi và hiệu quả nhất, sản phẩm không thể thiếu cho thú cưng hoặc trong các trại chăn nuôi quy mô lớn. Công việc chăm sóc các loại vật nuôi trong nhà sẽ trở nên dễ dàng, thuận tiện hơn với các thiết bị, dụng cụ được thiết kế thông minh. Bình nước tự động treo chuồng 500ml là một trong những dụng cụ rất đáng để lựa chọn cho việc chăm sóc các con vật nuôi.",
-        "category": "cat",
+        "category": ["cat", "accessories"],
         "image": "/images/products/binh-treo-chuong-vat-catchy.webp",
         "image1": "/images/products/binh-treo-chuong-vat-catchy-2.webp",
         "image2": "/images/products/binh-treo-chuong-vat-catchy-3.webp",
@@ -102,8 +111,9 @@
         "brand": "FIBs",
         "oldPrice": 200000,
         "newPrice": 150000,
+        "discount": 25,
         "description": "Lợi ích chính Đồ chơi cho mèo PAW Happy Pet Circle 3 tầng gồm có khuôn hình tròn bằng nhựa 3 tầng và chuột bông được gắn trên lò xo, với màu sắc vui nhộn khiến mèo cảm thấy yêu thích, năng động hơn Giúp cho mèo cảm thấy vui vẻ, đỡ nhàm chán khi bị ở trong nhà cả ngày. Chúng có thể tự chơi một mình mà không làm phiền bạn quá nhiều. Sản phẩm được dùng với chất liệu nhựa PP cao cấp. Không gây hại cho thú cưng. Màu sắc đa dạng để bạn và thú cưng lựa chọn.",
-        "category": ["cat", "dog", "hamster"],
+        "category": ["cat", "dog", "hamster", "accessories"],
         "image": "/images/products/do-choi-cho-meo-paw.webp"
     },
     {
@@ -112,6 +122,7 @@
         "brand": "Zenith",
         "oldPrice": 400000,
         "newPrice": 250000,
+        "discount": 37,
         "description": "Thuộc dòng sản phẩm thức ăn hạt mềm cao cấp cho thú cưng. Thức ăn hạt mềm chó Zenith được chế biến từ thịt cừu tươi, thịt nạc gà rút xương, gạo lứt, yến mạch và dầu cá hồi. Với các thành phần tươi sạch, giàu dinh dưỡng, Zenith hạt mềm, cung cấp độ ẩm cao và lượng muối thấp, thơm ngon, dễ nhai, dễ tiêu hóa và tốt cho sức khỏe chó con.",
         "category": ["dog","hamster"],
         "image": "/images/products/thuc-an-hat-mem-cho-cho-zenith.webp"
@@ -122,6 +133,7 @@
         "brand": "Royal Canin",
         "oldPrice": 520000,
         "newPrice": 250000,
+        "discount": 52,
         "description": "Canxi Phốt Pho của hãng PetAg ( Mỹ ) là canxi hàng đầu trong việc điều trị bệnh liên quan đến hệ thống khung xương của chó mèo như sập bàn, hạ bàn, thiếu canxi, còi xương v...v...- Với công thức cân bằng kết hợp canxi hàm lượng cao với Phốt Pho và Vitamin D trong cùng 1 viên thuốc giúp động vật có thể hấp thụ canxi tối ưu để phát triển khung xương chắc khoẻ hoặc đáp ứng nhu cầu canxi cho động vật đang trong thời kì sinh sản, mang thai.- Canxi Phốt pho dạng viên nén với mùi vị hấp dẫn rất dễ sử dụng cho các loại động vật.",
         "category": "dog",
         "image": "/images/products/canxi-photpho.webp",
@@ -135,6 +147,7 @@
         "brand": "Pedigree",
         "oldPrice": 200000,
         "newPrice": 150000,
+        "discount": 25,
         "description": "Thức Ăn Cho Chó Pedigree có công thức với từng miếng thịt mềm trong nước sốt cho hương vị thơm ngon mà những chú chó cực kì yêu thích. Một chế độ dinh dưỡng đầy đủ và cân bằng bao gồm các vitamin, khoáng chất, canxi, protein, chất xơ và omega cho cơ thể các chú cún có một sức khỏe toàn diện, bảo đảm sự phát triển cả về thể chất lẫn ngoại hình.",
         "category": "dog",
         "image": "/images/products/thuc-an-cho-cho-pedigree.webp"
@@ -145,6 +158,7 @@
         "brand": "Doca",
         "oldPrice": 180000,
         "newPrice": 130000,
+        "discount": 28,
         "description": "- Được làm từ nguyên liệu tươi ( cá tươi, bò tươi )- Sử dụng hương tự nhiên (dầu cá, bò, tinh dầu hương thật)- Không hương vị hóa học, không màu hóa học- Hỗ trợ nhu cầu năng lượng cao cho giai đoạn con phát triển- Hỗ trợ sự phát triển khung xương chắc khỏe, đủ canxi- Hỗ trợ sức khỏe hệ miễn dịch ngăn ngừa bệnh tật- Giảm mùi hôi triệt để phân khuôn dễ dọn dẹp",
         "category": ["dog", "hamster"],
         "image": "/images/products/thuc-an-cho-cho-freshtrino.webp"
@@ -155,6 +169,7 @@
         "brand": "Zenith",
         "oldPrice": 190000,
         "newPrice": 160000,
+        "discount": 15,
         "description": "Sữa bột nguyên kêm, Sữa bột gầy,Nondairy creamer, Maltodẽtrin,Sucrose,Whey protein concentrate,Hương dùng trong thực phẩm,Chất xơ Inulin, Lysine, Nano - Precipitated Calcium Carbonate Vitamin C, Vitamin K1, Vitamin B6, Vitamin B1, VitaminB2, Vitamin D3, Vitamin A, Vitamin B12, Vitamin Axit Pantothenic, Biotine, Axit Folic...",
         "category": ["dog", "hamster"],
         "image": "/images/products/sua-bot-cho-cho-dr-kyan-predogen-anh.webp"
@@ -165,6 +180,7 @@
         "brand": "Smartheart",
         "oldPrice": 150000,
         "newPrice": 950000,
+        "discount": 37,
         "description": "- Smart Heart Gold Puppy là thức ăn khô cho chó nhỏ với chất lượng được đảm bảo. - Với các chú chó nhỏ, bạn cần cung cấp cho chúng một chế độ dinh dưỡng đầy đủ các chất để đáp ứng nhu cầu duy trì và phục hồi các mô cơ trong cơ thể của chúng. - Là đồ ăn cho chó  có chất lượng tốt, chứa dầu cá, DHA, Axit béo O-mega 3, giàu Colin...giúp phát triển trí não và tăng cường sức khỏe cho tim mạch.",
         "category": ["dog","hamster"],
         "image": "/images/products/thuc-an-hat-kho-cho-meo-minino.webp"
@@ -175,8 +191,9 @@
         "brand": "updating",
         "oldPrice": 800000,
         "newPrice": 550000,
+        "discount": 31,
         "description": "- Thiết kế phi hành gia độc đáo, dễ thương - Chất liệu nhựa dễ dàng vệ sinh, thoáng khí.- 2 cửa tích hợp (cầu tròn, lưới phẳng) dễ dàng thay đổi. - Màu sắc nổi bật, bắt mắt - Sản phẩm Balo phi hành gia này được thiết kế có dây móc bên trong chắc chắn. - Giúp thú cưng, chó mèo ở yên một chỗ khi mở balo phi hành gia. Đây là thiết kế tuyệt vời ngăn không cho chó mèo, thú cưng tẩu thoát khi vừa mở ba lo ra.- Mặt trước của balo phi hành gia size lớn được sản xuất bằng chất liệu nhựa cứng bóng- Hai bên hông sản phẩm balo phi hành gia size lớn có những lỗ tròn nhỏ thông thoáng. Phần sau lưng sản phẩm được làm bằng vải mềm tạo cảm giác thoải mái- Mặt trước của ba lô được nhựa trong giúp cho cún và mèo cưng có không gian thoáng mát. Thoải mái nhìn ngắm ra bên ngoài mà không bị tối tăm, bí bách khi cùng bạn ra ngoài. ",
-        "category": "bird",
+        "category": ["bird", "accessories"],
         "image": "/images/products/balo-van-chuyen.webp",
         "image1": "/images/products/balo-van-chuyen-2.webp",
         "image2": "/images/products/balo-van-chuyen-3.webp",
@@ -188,8 +205,9 @@
         "brand": "Tropiclean",
         "oldPrice": 64000,
         "newPrice": 32000,
+        "discount": 50,
         "description": "- Thích hợp dành cho thú cưng từ 10kg trở xuống.- Bát ăn cho chó mèo được làm từ chất liệu nhựa cao cấp không gây hại, không làm ảnh hưởng đến chất lượng thức ăn, màu sắc bất mắt giúp thú cưng ăn ngon mệng hơn.- Chất liệu nhựa tổng hợp, không phai màu, không mùi, rất được tin dùng hiện nay.- Màu sắc bắt mắt, giúp thú cưng tận hưởng bữa ăn hơn. - Bát được thiết kế giúp chó mèo ăn chống rơi vãi ra nhà.- Bề mặt trơn láng, dễ dàng chùi rửa sạch sẽ sau khi sử dụng.– Một là dạy cho thú cưng của bạn trở thành một thú cưng ngoan ăn uống đúng chỗ.– Hai là dạy cho thú cưng của bạn tránh không ăn phải bả chó của cẩu tặc.– Nên nhớ tránh trường hợp cho thú cưng dùng chung vật dụng với người vì vấn đề vệ sinh và lây bệnh.– Bát ăn cho chó mèo sản xuất từ chất liệu nhựa cao cấp không làm ảnh hưởng đến chất lượng thức ăn, màu sắc bắt mắt giúp thú cưng ăn ngon miệng hơn.– Sản phẩm xứng đáng là sự lựa chọn lý tưởng của bạn dành cho thú cưng.– Bề mặt trơn láng, dễ dàng chùi rửa sạch sẽ sau khi sử dụng. chất liệu tốt, bền, đẹp, không độc hại, không kích ứng với da – Sản phẩm được làm từ chất liệu nhựa cao cấp không gây hại, không làm ảnh hưởng đến chất lượng thức ăn, màu sắc bất mắt giúp thú cưng ăn ngon mệng hơn .",
-        "category": "bird",
+        "category": ["bird", "accessories"],
         "image": "/images/products/bat-an-doi-khuc-xuong.webp",
         "image1": "/images/products/bat-an-doi-khuc-xuong-2.webp",
         "image2": "/images/products/bat-an-doi-khuc-xuong-3.webp",
@@ -201,8 +219,9 @@
         "brand": "Tropiclean",
         "oldPrice": 70000,
         "newPrice": 55000,
+        "discount": 21,
         "description": "Chăm sóc răng miệng không chỉ đơn thuần là làm cho thú cưng của bạn có nụ cười lấp lánh. Nó là một thành phần quan trọng đối với sức khỏe tổng thể của chúng. Trên thực tế, 80% chó bắt đầu có dấu hiệu mắc bệnh răng miệng ở tuổi 3. Sản phẩm Chăm sóc răng miệng tươi mát của chúng tôi có sự pha trộn độc đáo của các thành phần tự nhiên, mạnh mẽ giúp loại bỏ và bảo vệ chống lại mảng bám và cao răng, mang lại hơi thở thơm mát hương vị thú vị mà chó yêu thích! Răng sạch, hơi thở thơm tho, không đánh răng!",
-        "category": "bird",
+        "category":["bird", "accessories"],
         "image": "/images/products/gel-sach-rang.webp"
     },
     {
@@ -211,8 +230,9 @@
         "brand": "Minino",
         "oldPrice": 100000,
         "newPrice": 55000,
+        "discount": 45,
         "description": "Đồ chơi cho chó mèo Paw hình con gà có một tiếng kêu rất đặc biệt, họ nói tiếng kêu của sản phẩm nghe rất khổ sở nên họ đều gọi sản phẩm này là chú gà có tiếng kêu thảm thiết Sản phẩm được làm từ nhựa dẻo, rất an toàn với môi trường, khỏe mạnh, không hề có độc tố, không làm lọt hơi ra ngoài… chắc chắn thú cưng của bạn sẽ thích khi nghe tiếng kêu của sản phẩm này đấy Đồ chơi con gà huyền thoại cho chó không chỉ dành cho vật nuôi, mà kể cả người lớn hay trẻ con trong gia đình cũng đều có thể chơi được Tiếng kêu này sẽ khiến cho bạn càng chơi càng muốn chơi thêm nữa Hãy đem đến cho thú cưng nhà bạn phát minh này Những chú chó sẽ rất thích chơi một chú gà có kích thước lớn, bởi vì gà càng to, âm thanh nghe càng thảm, các chú chó sẽ càng hưng phấn, càng thích thú hơn. Quy cách sản phẩm: có nhiều size cho bạn lựa chọn. Kích thước từ 17 – 40cm.",
-        "category": "bird",
+        "category": ["bird", "accessories", "cat", "dog"],
         "image": "/images/products/do-choi-hinh-con-ga.webp"
     },
     {
@@ -221,8 +241,9 @@
         "brand": "Tropiclean",
         "oldPrice": 250000,
         "newPrice": 190000,
+        "discount": 24,
         "description": "Nước rửa bearphar Sản phẩm được nghiên cứu đặc biệt, giúp loại bỏ các vết bẩn cứng đầu do nước mắt chó/mèo gây ra. Phù hợp cho tất cả các giống ở mọi lứa tuổi. Nên sử dụng thường xuyên để tránh sự đổi màu lông, nhất là ở chó/mèo có lông màu sáng. THÀNH PHẦN HOẠT CHẤT:  2% Disodium Tetraborate HƯỚNG DẪN SỬ DỤNG Nhỏ dung dịch lên miếng bông gòn sạch và nhẹ nhàng lau khu vực có vết bẩn. - Sử dụng miếng bông gòn khác nhau cho mỗi mắt. - Sau đó dùng bông gòn khô lau lại để hấp thụ hết dung dịch. - Để loại bỏ vết bẩn cứng đầu: sử dụng sản phẩm tối đa 3 lần/1 ngày và liên tục trong ít nhất 1 tuần để nhận được kết quả mong muốn. - Để ngăn ngừa hình thành vết bẩn: sử dụng sản phẩm 1 - 2 lần / 1 tuần.",
-        "category": ["cat", "dog"],
+        "category": ["cat", "dog", "accessories"],
         "image": "/images/products/nuoc-rua-khoe-mat.webp",
         "image1": "/images/products/nuoc-rua-khoe-mat-2.webp",
         "image2": "/images/products/nuoc-rua-khoe-mat-3.webp",
@@ -234,8 +255,9 @@
         "brand": "Nutrience",
         "oldPrice": 60000,
         "newPrice": 45000,
+        "discount": 25,
         "description": "Đồ chơi bóng chuông cao su Bobo + Đồ Chơi hình bóng, đồ chơi sắc màu vui nhộn cho vật nuôi nhà bạn, dành cho thú chơi khi chủ vằng nhà, giúp thú không cắn đồ nhà + Làm từ chất liệu an toàn, mềm mại, màu sắc thu hút, giúp thú cưng hăng say chơi với quả bóng, tạo sự vận động khỏe mạnh và nhanh nhẹn + Sản phẩm có hhiết kế các hình thù ngộ nghĩnh với nhiều màu sắc đan xen nhau, giúp thú cưng dễ vờn nghịch mà ko sợ trơn tuột mất. + Màu sắc: như hình + Loại: Đồ chơi + Chất liệu nhựa",
-        "category": ["cat", "dog"],
+        "category": ["cat", "dog", "accessories"],
         "image": "/images/products/do-choi-bong-chuong-cao-su.webp"
     }
 ]

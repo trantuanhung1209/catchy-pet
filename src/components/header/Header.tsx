@@ -6,7 +6,6 @@ import {
   FaChevronDown,
 } from "react-icons/fa";
 import "./Header.css";
-import { useState } from "react";
 
 export const Header = () => {
   return (

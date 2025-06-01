@@ -82,7 +82,7 @@ export const Section3 = () => {
               className="img-3 absolute bottom-0 left-0"
             />
           </h2>
-          <div className="inner-list-products grid grid-cols-4 bg-white border border-[3px] border-[#f9a529] p-[30px] overflow-hidden rounded-bl-[10px] rounded-br-[10px]">
+          <div className="inner-list-products grid grid-cols-4 bg-white border-[3px] border-[#f9a529] p-[30px] overflow-hidden rounded-bl-[10px] rounded-br-[10px]">
             {dataSection3.slice(0, 4).map((item, index) => (
               <Section3Item key={index} item={item} />
             ))}

@@ -3,7 +3,7 @@ import { Section5 } from "./components/section-5/Section5";
 import { Section2 } from "./components/section-2/Section2";
 import { Section3 } from "./components/section-3/Section3";
 import { Section6 } from "./components/section-6/Section6";
-import "./home.css";
+import "./Home.css";
 import { Section7 } from "./components/section-7/Section7";
 import { Section8 } from "./components/section-8/Section8";
 import { Section9 } from "./components/section-9/Section9";

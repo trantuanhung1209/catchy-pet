@@ -38,16 +38,16 @@ export const Header = () => {
                     </li>
                     <li>
                       <NavLink
-                        to="/about"
-                        className="about block py-[20px] hover:text-[#b57310] text-[20px]"
+                        to="/spa"
+                        className="spa block py-[20px] hover:text-[#b57310] text-[20px]"
                       >
-                        Giới thiệu
+                        Dịch vụ Spa
                       </NavLink>
                     </li>
                     <li className="relative group">
                       <NavLink
                         to="/products"
-                        className="products block py-[20px] hover:text-[#b57310] text-[20px] flex items-center"
+                        className="products py-[20px] hover:text-[#b57310] text-[20px] flex items-center"
                       >
                         Sản phẩm
                         <FaChevronDown className="text-[20px] inline-block ml-[5px]" />

@@ -5,7 +5,7 @@ import { Header } from "./components/header/Header";
 
 // Sử dụng lazy loading cho các trang
 const HomePage = lazy(() => import("./pages/home/Home"));
-const AboutPage = lazy(() => import("./pages/about/About"));
+const AboutPage = lazy(() => import("./pages/spa/Spa"));
 const ProductsPage = lazy(() => import("./pages/products/Products"));
 const ContactPage = lazy(() => import("./pages/contact/Contact"));
 const BookPage = lazy(() => import("./pages/book/Book"));
@@ -34,7 +34,7 @@ function App() {
           ) : (
             <Routes>
               <Route path="/" element={<HomePage />} />
-              <Route path="/about" element={<AboutPage />} />
+              <Route path="/spa" element={<AboutPage />} />
               <Route path="/products" element={<ProductsPage />} />
               <Route path="/contact" element={<ContactPage />} />
               <Route path="/book" element={<BookPage />} />

@@ -1,14 +1,14 @@
 .header {
 
-    .about {
+    .spa {
         position: relative;
     }
 
-    .about::before {
+    .spa::before {
         content: "";
         width: 20px;
         height: 20px;
-        background-image: url('../../assets/images/svg/icon-menu.png');
+        background-image: url('/images/svg/icon-menu.png');
         position: absolute;
         left: -32px;
         top: 28px;
@@ -25,7 +25,7 @@
         content: "";
         width: 20px;
         height: 20px;
-        background-image: url('../../assets/images/svg/icon-menu.png');
+        background-image: url('/images/svg/icon-menu.png');
         position: absolute;
         left: -32px;
         top: 28px;
@@ -42,7 +42,7 @@
         content: "";
         width: 20px;
         height: 20px;
-        background-image: url('../../assets/images/svg/icon-menu.png');
+        background-image: url('/images/svg/icon-menu.png');
         position: absolute;
         left: -32px;
         top: 28px;
@@ -59,7 +59,7 @@
         content: "";
         width: 20px;
         height: 20px;
-        background-image: url('../../assets/images/svg/icon-menu.png');
+        background-image: url('/images/svg/icon-menu.png');
         position: absolute;
         left: -32px;
         top: 28px;

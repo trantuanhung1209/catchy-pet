@@ -12,11 +12,11 @@ export const Product = (props: any) => {
           <span className="discount absolute top-0 right-0 text-white text-sm bg-red-400 rounded-[8px] p-[4px]">-{item.discount}%</span>
         </div>
         <div className="inner-content">
-          <h3 className="text-[16px] font-semibold mb-[10px] ml-[5px]">
+          <h3 className="text-[16px] font-semibold mb-[10px] ml-[5px] line-clamp-1 text-[#333] hover:text-[#f9a629] transition-all duration-500 ease-out">
             {item.title}
           </h3>
           <p className="inner-price mb-[10px] ml-[10px]">
-            <span className="text-[18px] font-bold text-[#f4b915]">
+            <span className="text-[18px] text-red-400">
               {item.newPrice.toLocaleString()}đ
             </span>
             <span>

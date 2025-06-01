@@ -1,3 +1,4 @@
+import { FaArrowUp } from 'react-icons/fa6';
 import './Footer.css';
 import logoFooter from '/images/svg/logo-footer.webp';
 import { FaFacebookF, FaInstagram, FaTwitter, FaTiktok, FaYoutube } from "react-icons/fa";
@@ -16,6 +17,9 @@ export const Footer = () => {
     return (
         <>
             <footer className="footer">
+                <div className="scroll-top w-[40px] h-[40px] fixed bottom-[50px] right-[50px] bg-[#f9a529] hover:bg-[#b57310] p-[5px] rounded-full flex justify-center items-center cursor-pointer z-50">
+                    <FaArrowUp className="text-white text-[26px]" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} />
+                </div>
                 <div className="inner-top pt-[60px]">
                     <div className="container max-w-[1340px] mx-auto">
                         <div className="inner-logo flex justify-center items-center mb-[50px]">
@@ -27,7 +31,7 @@ export const Footer = () => {
                                     <NavLink to="/" className="text-[18px] px-[30px] text-white hover:text-[#b57310]">Trang chủ</NavLink>
                                 </li>
                                 <li>
-                                    <NavLink to="/about" className="text-[18px] px-[30px] text-white hover:text-[#b57310]">Giới thiệu</NavLink>
+                                    <NavLink to="/spa" className="text-[18px] px-[30px] text-white hover:text-[#b57310]">Dịch vụ Spa</NavLink>
                                 </li>
                                 <li>
                                     <NavLink to="/products" className="text-[18px] px-[30px] text-white hover:text-[#b57310]">Sản phẩm</NavLink>
